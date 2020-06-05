@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font: normal 15pt helvetica;
+}
+header {
+    background: rgba(105, 24, 212, 0.924);
+    border: 3px;
+    border-color: rgb(105, 24, 212);
+    padding: 5px;
+    height: 70px;
+}
+header img#logoimg {
+    width: 25px;
+    height: 45px;
+    margin-top: 5px;
+    margin-left: 65px;
+    position: absolute;
+    float: left;
+}
+nav {
+    float: right;
+    margin-right: 65px;
+    margin-top: 20px;
+    position: relative;
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 6px;
+    vertical-align: middle;
+}
+nav a:hover {
+    color: white;
+}
+h1 {
+    font: bold 20pt;
+    color: rgb(105, 24, 212);
+    text-align: center;
+    padding: 15px;
+}
+h3 {
+    font: bold 10pt;
+    color: rgb(105, 24, 212);
+    text-align: center;
+    padding: 5px;
+}
+h5 {
+    font: bold 10pt;
+    color: rgb(105, 24, 212);
+    text-align: center;
+}
+p {
+    color: rgb(105, 24, 212);
+    text-align: center;
+}
+.carousel-caption {
+    background: rgba(255, 255, 255, 0.459);
+    border: 3px;
+    border-radius: 6px;
+    padding: 15px;
+}
+section#cards {
+    margin: 65px;
+}
+div.card {
+    padding: 15px;
+    align-items: center;
+    width: 340px;
+    height: 280px;
+    background: rgba(221, 199, 248, 0.287);
+}
+img.card-img-top {
+    max-width: 280px;
+    max-height: 180px;
+}
+div.input-group {
+    margin-bottom: 5px;
+}
+small.form-text {
+    margin-bottom: 15px;
+}
+div#tabela {
+    background: rgb(105, 24, 212);
+    border-radius: 6px;
+}
+footer {
+    color: rgb(107, 16, 107);
+    background: rgba(227, 207, 253, 0.103);
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+    margin-top: 25px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Trabalhe conosco</title>
+</head>
+<body>
+        <header>
+            <a href="index.html"><img id="logoimg" src="img/logo.png" ></a>
+            <nav id="menu">
+                <a href="corpomedico.html">Corpo Médico</a>
+                <a href="convenios.html">Convênios</a>
+                <a href="horariosevisitas.html">Horários e Visitas</a>
+                <a href="trabalheconosco.html">Trabalhe conosco</a>
+            </nav>
+        </header>
+
+        <div id="TrabalheConosco">
+            <img src="img/trabalheconosco.jpg">
+            <h1>Trabalhe Conosco</h1>
+            <h3>Faça parte do nosso time!</h3>
+        </div>
+        <div class="container">
+            <form class="mt-5">
+                <div class="form-group form-row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-user-circle"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group form-row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                <i class="far fa-id-card"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control mascaraCpf" id="cpf" placeholder="000.000.000-00">
+                        </div>
+                        <small id="emailAjuda" class="form-text text-muted">CPF.</small>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="far fa-calendar-alt"></i>
+                                </div>
+                            </div>
+                            <input type="data" class="form-control mascaraDataNascimento" id="nascimento" placeholder="dd/mm/aaaa">
+                        </div>
+                        <small id="dtNascimentoAjuda" class="form-text text-muted">Data de Nascimento.</small>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="far fa-address-book"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control mascaraCep" id="cep" placeholder="00000-000">
+                        </div>
+                        <small id="cepAjuda" class="form-text text-muted">CEP.</small>
+                    </div>
+                </div>
+                <div class="form-group form-row">
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-briefcase"></i>
+                                </div>
+                            </div>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>1 - Clinico Geral</option>
+                                <option>2 - Dermatologista</option>
+                                <option>3 - Aux. Serviços Gerais</option>
+                                <option>4 - Cardioligista</option>
+                                <option>6 - Nutricionista</option>
+                                <option>7 - Obstetra</option>
+                                <option>8 - Cirurgião de Truamatologia</option>
+                                <option>9 - Desenvolvedor Full Stack</option>
+                                <option>9 - Recepcionista</option>
+                            </select>
+                        </div>
+                        <small id="vagaAjuda" class="form-text text-muted">Vaga de Interesse.</small>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-hand-holding-usd"></i>
+                                </div>
+                            </div>
+                            <input type="text" class="form-control mascaraDinheiroReal" id="salario" placeholder="R$ 2.000,00">
+                        </div>
+                        <small id="salarioAjuda" class="form-text text-muted">Pretensão salárial.</small>
+                </div>
+                <button type="submit" class="btn btn-outline-success btn-block" >Enviar
+                    <i class="far fa-comment-dots"></i>
+                </button>
+            </form>
+        </div>
+
+        <footer>
+            <p>&copy; Fabiany's Site</p>
+        </footer>
+
+     <script src="js/plugins/jquery-3.5.1.min.js"></script>
+	 <script src="js/plugins/bootstrap.min.js"></script>
+	 <script src="js/plugins/jquery.priceformat.min.js"></script>
+	 <script src="js/plugins/jquery.mask.min.js"></script>
+     <script src="js/script.js"></script>
+ </body>
+</html>
